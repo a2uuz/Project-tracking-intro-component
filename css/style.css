@@ -4,4 +4,29 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+main {
+  margin: 1rem;
+}
+
+nav {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+}
+
+.collapsing,
+.show {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }/*# sourceMappingURL=style.css.map */
