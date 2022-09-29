@@ -15,5 +15,42 @@ $Light_Grayish_Blue: #eef3f6;
 
 $Fsize: 18px;
 $HCNsize: "Barlow Condensed", sans-serif;
-$Famsize: "Barlow", sans-serif;
+$Bsize: "Barlow", sans-serif;
 
+body {
+  font-family: $Bsize;
+}
+
+main {
+  margin: 1rem;
+}
+
+nav {
+  font-family: $HCNsize;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+}
+
+// .collapse {
+//   justify-content: end;
+
+//   ul {
+//     display: flex;
+//     gap: 1rem;
+//     li:nth-child(4) {
+//       padding-left: 2rem;
+//     }
+//   }
+// }
+
+// .collapse,
+.collapsing,
+.show{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 3rem;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
