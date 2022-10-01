@@ -25,7 +25,7 @@
     ></script>
 
     <link rel="stylesheet" href="./css/style.css" />
-
+    <script defer src="./script.js"></script>
     <title>Frontend Mentor | Project tracking intro component</title>
   </head>
   <body>
@@ -39,10 +39,11 @@
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
+            <img class="close" src="./images/icon-close.svg" alt="" />
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -55,6 +56,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
+              <hr width="100%" />
               <li class="nav-item">
                 <a
                   class="nav-link disabled"
@@ -68,13 +70,17 @@
           </div>
         </div>
       </nav>
-      <!-- <img src="" alt="" />
+      <div class="hero">
+        <img src="./images/illustration-devices.svg" alt="hero" />
+      </div>
       <div class="content">
-        <span></span>
-        <h1></h1>
-        <p></p>
-        <div class="submit"><button></button><span></span></div>
-      </div> -->
+        <span><small>NEW</small>Monograph Dashboard</span>
+        <h1>Powerful insights into your team</h1>
+        <p>Project planning and time tracking for agile teams</p>
+        <div class="submit">
+          <button>Schedule a demo</button><span>to see a live preview</span>
+        </div>
+      </div>
     </main>
   </body>
 </html>
